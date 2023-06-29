@@ -36,5 +36,5 @@ logisticpowersimulation <- function(pd, pa, b, h, samp.size, analysis = 'unknown
   }
   #plots the data points for ncp
   plot(inflation*pd, data, 
-       xlab = "Case Fraction", ylab = "power", las = 1, bty = "n", pch =19)
+       xlab = "Case Fraction", ylab = "Power from logistic regression", las = 1, bty = "n", pch =19)
 }

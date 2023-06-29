@@ -159,7 +159,7 @@ ncppowersimulation <- function(pd, pa, b, h, samp.size, analysis,
                                inflation = c(0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.25, 2.5, 2.75, 3),
                                n.sim = 1000, pop.size = 1000000, alpha = 0.00000005, df = 2){
   #creates population
-  pop <- createpopulation(pd, pa, b, h, analysis, pop.size)
+  pop <- creatediploidpopulation(pd, pa, b, h, analysis, pop.size)
   
   #inflation vector contains the different inflation factors that will be used
   power <- numeric(length(inflation))

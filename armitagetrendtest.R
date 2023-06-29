@@ -44,5 +44,5 @@ armitagepowersimulation <- function(pd, pa, b, h, samp.size, analysis = 'unknown
   }
   #plots the data points for ncp
   plot(inflation*pd, powerdata, 
-       xlab = "Case Fraction", ylab = "Power of Armitage trend test", las = 1, bty = "n", pch =19)
+       xlab = "Case Fraction", ylab = "Power from Armitage trend test", las = 1, bty = "n", pch =19)
 }
